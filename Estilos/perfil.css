@@ -1,0 +1,179 @@
+#mainpage {
+    padding-top: 60px;
+}
+
+.profile-image {
+    max-width: 80px;
+    max-height: 80px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.profile-box {
+    z-index: 9999;
+    position: fixed;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 200px;
+    max-height: 300px;
+    overflow-y: hidden;
+}
+.profile-box, .user-dropdown, .emotelist-table td {
+
+    color: #c8c8c8;
+    background-color: #161a20;
+
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.col-lg-offset-3 {
+    margin-left: 25%;
+}
+.col-lg-6 {
+    width: 50%;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: left;
+}
+.col-md-offset-3 {
+    margin-left: 25%;
+}
+.col-md-6 {
+    width: 50%;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #c8c8c8;
+    background-color: #272b30;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.linewrap, .linewrap code {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.container {
+    width: 1170px;
+}
+
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #272b30;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input.form-control[type="text"], input.form-control[type="password"], input.form-control[type="email"], textarea.form-control {
+    background-color: #161a20 !important;
+    color: #c8c8c8;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.h3, h3 {
+    font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: -1px -1px 0 rgba(0,0,0,.3);
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #62686d;
+    border-color: #5d6368;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn, .btn:hover {
+    border-color: rgba(0,0,0,.6);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(#404448,#4e5458 40%,#585e62);
+    background-repeat: no-repeat;
+    filter: none;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.unfollow{
+  display: inline-block;
+  width: auto;
+}
